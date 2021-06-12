@@ -16,7 +16,7 @@ function compute()
     var year = new Date().getFullYear() + parseInt(years);
 
     //Compile a string with the results and populate it in the appropriate span
-    var resultstring = "If you deposit \<span class=\"resultvar\"\>" + principal +"\<\\span\>,\<br\> at an interest rate of \<span class=\"resultvar\"\>" + rate + "%\<\\span\>,\<br\> You will receive an amount of \<span class=\"resultvar\"\>" + (interest + principal) + "\<\\span\>\<br\> In the year \<span class=\"resultvar\"\>" + year + "\<\\span\>";
+    var resultstring = "If you deposit <span class=\"resultvar\">" + principal +"</span>,<br> at an interest rate of <span class=\"resultvar\">" + rate + "%</span>,<br> You will receive an amount of <span class=\"resultvar\">" + (interest + principal) + "</span><br> In the year <span class=\"resultvar\">" + year + "</span>";
     document.getElementById("result").innerHTML = resultstring;
 }
 
