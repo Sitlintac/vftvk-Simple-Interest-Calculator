@@ -3,14 +3,18 @@ h1{color:grey;font-family:Verdana, Geneva, Tahoma, sans-serif;}
 .maindiv {
     background-color: white;
     color: black;
-    width: 300px;
+    width: 600px;
     padding: 20px;
     border-radius: 25px;
-    align: center;
+    margin: 0 auto;
     text-align: center;
 }
 .optionstable {
     text-align: left;
+}
+
+.resultvar {
+    background-color: yellow;
 }
 
 
